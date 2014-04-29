@@ -1,4 +1,4 @@
-var Rsshomepage = window.Rsshomepage = Ember.Application.create();
+var Webapp = window.Webapp = Ember.Application.create();
 
 /* Order and include as you please. */
 require('scripts/controllers/*');

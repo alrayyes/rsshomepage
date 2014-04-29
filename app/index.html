@@ -1,21 +1,114 @@
 <!doctype html>
-<html>
+<html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Yeoman Ember Starter Kit</title>
-
-        <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/style.css">
+        <title>rsshomepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css" />
+        <!-- endbower -->
         <!-- endbuild -->
-</head>
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
     <body>
-        <!-- build:js(app) scripts/components.js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/handlebars/handlebars.runtime.js"></script>
-        <script src="@@ember"></script>
-        <script src="@@ember_data"></script>
+<!--
+        <div class="row">
+  <div class="large-12 columns">
+    <div id="masonryContainer">
+      <div class="masonry-brick">
+        <b>Gawker</b>
+        <ul>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+        </ul>
+      </div>
+      <div class="masonry-brick">
+        <b>Kotaku</b>
+        <ul>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+        </ul>
+      </div>
+      <div class="masonry-brick">
+        <b>Jezebel</b>
+        <ul>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <div class="masonry-brick">
+        <b>Jalopnik</b>
+        <ul>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+        </ul>
+      </div>
+        </ul>
+      </div>
+      <div class="masonry-brick">
+        <b>Lifehacker</b>
+        <ul>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+            <li><a href="sldfjsldf">Test title</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/fastclick/lib/fastclick.js"></script>
+        <script src="../bower_components/jquery.cookie/jquery.cookie.js"></script>
+        <script src="../bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+        <script src="../bower_components/foundation/js/foundation.js"></script>
+        <script src="../bower_components/handlebars/handlebars.js"></script>
+        <script src="../bower_components/ember/ember.js"></script>
+        <script src="../bower_components/ember-data/ember-data.js"></script>
+        <!-- endbower -->
         <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
 
         <!-- build:js(.tmp) scripts/templates.js -->
         <script src="scripts/compiled-templates.js"></script>

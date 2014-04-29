@@ -1,3 +1,3 @@
-Rsshomepage.Router.map(function () {
+Webapp.Router.map(function () {
   // Add your routes here
 });

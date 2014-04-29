@@ -1,1 +1,1 @@
-Rsshomepage.ApplicationAdapter = DS.FixtureAdapter;
+Webapp.ApplicationAdapter = DS.FixtureAdapter;
